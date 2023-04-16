@@ -1,0 +1,27 @@
+[
+  {
+    "post_id": 1224,
+    "post_caption": "Never use C in the spring - instead spring into spring with spring boot",
+    "images": [
+      "bit.ly/3o4qDIV",
+      "bit.ly/3zRs8wQ"
+    ],
+    "number_of_likes": 320,
+    "comments": [
+      {
+        "username": "sarahjohnson",
+        "comment": "I love spring boot!"
+      },
+      {
+        "username": "lauramack",
+        "comment": "I need to learn spring boot. I just got started with Java"
+      }
+    ],
+    "hashtags": [
+      "springboot",
+      "java",
+      "springframework"
+    ],
+    "date_published": "2023-03-20 16: 34: 04.862380"
+  }
+]
