@@ -1,6 +1,6 @@
 [
   {
-    "post_id": 1224
+    "post_id": 1224,
     "is_reported": true,
     "is_manual": true,
     "reason": "Represented duplicate content from another account",
