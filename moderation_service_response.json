@@ -1,9 +1,27 @@
 [
   {
-    "post_id": 1224,
+    "post_id": 1223,
     "is_reported": true,
     "is_manual": true,
-    "reason": "Represented duplicate content from another account",
+    "reason": "Used a bad word",
+    "post_caption": "Never use C in the spring - instead spring into spring with spring boot",
+    "post_image": "bit.ly/3o4qDIV",
     "reported_by": "browniebits"
+  },
+  {
+    "post_id": 3294,
+    "is_reported": true,
+    "is_manual": false,
+    "reason": "Duplicate content from another account",
+    "post_caption": "You can never learn Java when you learn with Python first",
+    "post_image": "bit.ly/3zRs8wQ"
+  },
+  {
+    "post_id": 9273,
+    "is_reported": true,
+    "is_manual": false,
+    "reason": "Spam post",
+    "post_caption": "You can use ASCII in spring boot",
+    "post_image": "bit.ly/3Ku5mzY"
   }
 ]
