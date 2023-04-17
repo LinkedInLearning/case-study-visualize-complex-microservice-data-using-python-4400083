@@ -1,20 +1,15 @@
 [
   {
-    "post_id": 1224,
+    "posted_by": "blondiebytes",
     "post_caption": "Never use C in the spring - instead spring into spring with spring boot",
     "images": [
-      "bit.ly/3o4qDIV",
-      "bit.ly/3zRs8wQ"
+      "bit.ly/3o4qDIV"
     ],
     "number_of_likes": 320,
     "comments": [
       {
         "username": "sarahjohnson",
         "comment": "I love spring boot!"
-      },
-      {
-        "username": "lauramack",
-        "comment": "I need to learn spring boot. I just got started with Java"
       }
     ],
     "hashtags": [
@@ -22,6 +17,45 @@
       "java",
       "springframework"
     ],
-    "date_published": "2023-03-20 16: 34: 04.862380"
+    "post_id": 1223,
+    "date_published": "2023-03-20 16:34:04.862380"
+  },
+  {
+    "posted_by": "blondiebytes",
+    "post_caption": "You can never learn Java when you learn with Python first",
+    "images": [
+      "bit.ly/3zRs8wQ"
+    ],
+    "number_of_likes": 234,
+    "comments": [],
+    "hashtags": [
+      "python",
+      "java",
+      "programming",
+      "coder"
+    ],
+    "post_id": 3294,
+    "date_published": "2023-03-21 19:32:01.23923"
+  },
+  {
+    "posted_by": "blondiebytes",
+    "post_caption": "You can use ASCII in spring boot",
+    "images": [
+      "bit.ly/3Ku5mzY"
+    ],
+    "number_of_likes": 203,
+    "comments": [
+      {
+        "username": "elizabethkerry",
+        "comment": "I love ASCII art"
+      }
+    ],
+    "hashtags": [
+      "ascii",
+      "assembly",
+      "springboot"
+    ],
+    "post_id": 9273,
+    "date_published": "2023-03-22 13:64:20.93280"
   }
 ]
