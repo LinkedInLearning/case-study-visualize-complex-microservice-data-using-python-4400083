@@ -1,4 +1,5 @@
 import json
+import plantuml
 
 
 def load_data():
@@ -58,6 +59,12 @@ def write_plantuml_file(context):
         pf.write("@enduml \n")
 
 
+def create_plantuml_image():
+    plantuml.PlantUML("http://www.plantuml.com/plantuml/img/").processes_file(
+        "plantuml.txt", outfile=None, errorfile=None)
+
+
 if __name__ == '__main__':
     context_json = load_data()
     write_plantuml_file(context_json)
+    create_plantuml_image()
