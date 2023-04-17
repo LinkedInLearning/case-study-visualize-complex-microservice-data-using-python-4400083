@@ -1,42 +1,6 @@
 @startuml 
-object blondiebytes
-blondiebytes : name = Kathryn
-blondiebytes : biography = Software Engineer
-blondiebytes : hyperlink = linktr.ee/blondiebytes
-blondiebytes : is_reported = True
-blondiebytes : is_shadowbanned = False
-blondiebytes : number_of_followers = 29048
-blondiebytes : number_of_posts = 541
-blondiebytes : number_of_following = 692
-object post_1223
-post_1223 : post_caption = Never use C in the spring - instead spring into spring with spring boot
-post_1223 : images = ['bit.ly/3o4qDIV']
-post_1223 : comments = [{'username': 'sarahjohnson', 'comment': 'I love spring boot!'}]
-post_1223 : hashtags = ['springboot', 'java', 'springframework']
-post_1223 : date_published = 2023-03-20 16:34:04.862380
-blondiebytes -down-> post_1223
-object post_3294
-post_3294 : post_caption = You can never learn Java when you learn with Python first
-post_3294 : images = ['bit.ly/3zRs8wQ']
-post_3294 : comments = []
-post_3294 : hashtags = ['python', 'java', 'programming', 'coder']
-post_3294 : date_published = 2023-03-21 19:32:01.23923
-blondiebytes -down-> post_3294
-object post_9273
-post_9273 : post_caption = You can use ASCII in spring boot
-post_9273 : images = ['bit.ly/3Ku5mzY']
-post_9273 : comments = [{'username': 'elizabethkerry', 'comment': 'I love ASCII art'}]
-post_9273 : hashtags = ['ascii', 'assembly', 'springboot']
-post_9273 : date_published = 2023-03-22 13:64:20.93280
-blondiebytes -down-> post_9273
-post_1223 : is_reported = True
-post_1223 : is_manual = True
-post_1223 : reason = Used a bad word
-post_1223 : reported_by = browniebits
-post_3294 : is_reported = True
-post_3294 : is_manual = False
-post_3294 : reason = Duplicate content from another account
-post_9273 : is_reported = True
-post_9273 : is_manual = False
-post_9273 : reason = Spam post
+object Brankica_Šotra 
+Brankica_Šotra : email = brankica.sotra@example.com
+Brankica_Šotra : phone = 026-0494-733
+Brankica_Šotra : age = 25
 @enduml 
