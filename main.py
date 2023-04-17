@@ -21,6 +21,7 @@ def load_data():
         "is_shadowbanned": profile_json["is_shadowbanned"],
         "number_of_followers": profile_json["number_of_followers"],
         "number_of_posts": profile_json["number_of_posts"],
+        "number_of_following": profile_json["number_of_following"],
         "posts": []
     }
 
@@ -54,8 +55,46 @@ def write_plantuml_file(context):
         # object nameOfNode
         pf.write("@startuml \n")
         pf.write("object " + context["username"] + "\n")
+        # nameOfNode : nameOfAttribute = attributeValue
+        pf.write(context["username"] + " : name = " + context["name"] + "\n")
+        pf.write(context["username"] + " : biography = " +
+                 context["biography"] + "\n")
+        pf.write(context["username"] + " : hyperlink = " +
+                 context["hyperlink"] + "\n")
+        pf.write(context["username"] + " : is_reported = " +
+                 str(context["is_reported"]) + "\n")
+        pf.write(context["username"] + " : is_shadowbanned = " +
+                 str(context["is_shadowbanned"]) + "\n")
+        pf.write(context["username"] + " : number_of_followers = " +
+                 str(context["number_of_followers"]) + "\n")
+        pf.write(context["username"] + " : number_of_posts = " +
+                 str(context["number_of_posts"]) + "\n")
+        pf.write(context["username"] + " : number_of_following = " +
+                 str(context["number_of_following"]) + "\n")
+
         for post in context["posts"]:
             pf.write("object post_" + str(post["post_id"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : post_caption = " + post["post_caption"] + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : images = " + str(post["images"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : comments = " + str(post["comments"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : hashtags = " + str(post["hashtags"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : date_published = " + post["date_published"] + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : is_reported = " + str(post["is_reported"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : is_manual = " + str(post["is_manual"]) + "\n")
+            pf.write("post_" + str(post["post_id"]) +
+                     " : reason = " + post["reason"] + "\n")
+
+            if "reported_by" in post:
+                pf.write(
+                    "post_" + str(post["post_id"]) + " : reported_by = " + post["reported_by"] + "\n")
+
         pf.write("@enduml \n")
 
 

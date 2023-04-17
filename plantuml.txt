@@ -1,4 +1,21 @@
 @startuml 
 object blondiebytes
+blondiebytes : name = Kathryn
+blondiebytes : biography = Software Engineer
+blondiebytes : hyperlink = linktr.ee/blondiebytes
+blondiebytes : is_reported = True
+blondiebytes : is_shadowbanned = False
+blondiebytes : number_of_followers = 29048
+blondiebytes : number_of_posts = 541
+blondiebytes : number_of_following = 692
 object post_1224
+post_1224 : post_caption = Never use C in the spring - instead spring into spring with spring boot
+post_1224 : images = ['bit.ly/3o4qDIV', 'bit.ly/3zRs8wQ']
+post_1224 : comments = [{'username': 'sarahjohnson', 'comment': 'I love spring boot!'}, {'username': 'lauramack', 'comment': 'I need to learn spring boot. I just got started with Java'}]
+post_1224 : hashtags = ['springboot', 'java', 'springframework']
+post_1224 : date_published = 2023-03-20 16: 34: 04.862380
+post_1224 : is_reported = True
+post_1224 : is_manual = True
+post_1224 : reason = Represented duplicate content from another account
+post_1224 : reported_by = browniebits
 @enduml 
